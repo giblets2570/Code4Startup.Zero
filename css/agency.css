@@ -288,7 +288,7 @@ header {
 
 header .front-logo {
     height: 100px;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 header .intro-text {
@@ -304,6 +304,11 @@ header .intro-text .intro-lead-in {
     font-weight: 100;
     line-height: 18px;
     margin-top: 50px;
+}
+
+
+#video {
+    background: rgba(240,240,240,1);
 }
 
 .videoWrapper {
@@ -406,6 +411,23 @@ section h3.section-subheading {
     section {
         padding: 150px 0;
     }
+}
+
+
+#how-it-works .works-list {
+    text-align: center;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+#how-it-works .works-list p {
+    font-size: 24px;
+}
+
+#how-it-works .works-list p.easy {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .service-heading {
