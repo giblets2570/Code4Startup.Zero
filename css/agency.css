@@ -276,7 +276,7 @@ header {
             rgba(10, 10, 10, 0.45)
         ),
         url(../img/header-bg2.jpg);
-    height: 80vh;
+    height: 90vh;
 
     background-position: center center;
     background-repeat: none;
@@ -286,8 +286,13 @@ header {
     -o-background-size: cover;
 }
 
+header .front-logo {
+    height: 100px;
+    margin-top: 100px;
+}
+
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -298,6 +303,7 @@ header .intro-text .intro-lead-in {
     /*font-style: italic;*/
     font-weight: 100;
     line-height: 18px;
+    margin-top: 50px;
 }
 
 header .intro-text .intro-heading {
