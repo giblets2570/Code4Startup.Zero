@@ -842,7 +842,7 @@ section#team {
 
 
 #layer .what-it-does p {
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
 }
 
@@ -992,7 +992,7 @@ body {
 }
 
 .small-image {
-    height: 30px;
+    height: 40px;
 }
 
 /* My Custom Style*/
