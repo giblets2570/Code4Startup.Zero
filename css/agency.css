@@ -2,6 +2,10 @@
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+
+
+    purple #3f4676
+
  */
 
 body {
@@ -88,8 +92,15 @@ h6 {
 }
 
 .logo {
-    height: 50px;
-    margin-top: -15px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+@media(min-width:768px) {
+    .logo {
+        height: 40px;
+        margin-top: -10px;
+    }
 }
 
 .btn-primary:active,
@@ -286,6 +297,13 @@ header {
     -o-background-size: cover;
 }
 
+@media(max-width:768px) {
+    header {
+        height: 1%;
+        overflow: hidden;
+    }
+}
+
 header .front-logo {
     height: 100px;
     margin-top: 40px;
@@ -330,7 +348,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     /*text-transform: uppercase;*/
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     line-height: 30px;
 }
@@ -364,6 +382,10 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+    header .front-logo {
+        height: 100px;
+        margin-top: 40px;
+    }
     header .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
@@ -382,14 +404,14 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         /*text-transform: uppercase;*/
         font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 400;
-        line-height: 50px;
+        line-height: 40px;
     }
 }
 
 section {
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 section h2.section-heading {
@@ -417,7 +439,8 @@ section h3.section-subheading {
 #how-it-works .works-list {
     text-align: center;
     font-weight: 200;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
+    padding: 40px;
 }
 
 #how-it-works .works-list p {
@@ -425,9 +448,9 @@ section h3.section-subheading {
 }
 
 #how-it-works .works-list p.easy {
-    margin-top: 40px;
-    font-size: 24px;
-    font-weight: 400;
+    margin-top: 50px;
+    /*font-size: 24px;*/
+    /*font-weight: 400;*/
 }
 
 .service-heading {
@@ -801,12 +824,26 @@ section#contact .text-danger {
     color: #fff;
 }
 
+
+section#team {
+    background: rgba(240,240,240,1);
+}
+
 .help-block{
     color: #000;
 }
 
 .where {
+    font-family: raleway;
+    text-transform: uppercase;
+    font-weight: 700;
     color: #3f4676;
+}
+
+
+#layer .what-it-does p {
+    font-size: 18px;
+    text-align: center;
 }
 
 footer {
@@ -952,6 +989,10 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+.small-image {
+    height: 30px;
 }
 
 /* My Custom Style*/
