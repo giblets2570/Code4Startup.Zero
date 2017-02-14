@@ -440,7 +440,9 @@ section h3.section-subheading {
         padding: 150px 0;
     }
 }
-
+#how-it-works{
+    background: rgba(240,240,240,1);
+}
 
 #how-it-works .works-list {
     text-align: center;
@@ -832,7 +834,7 @@ section#contact .text-danger {
 
 
 section#team {
-    background: rgba(240,240,240,1);
+/*    background: rgba(240,240,240,1);*/
 }
 
 .help-block{
