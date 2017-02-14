@@ -298,20 +298,14 @@ header {
     -o-background-size: cover;
 }
 
-@media(max-width:992px) {
-    .video {
-        display: none;
-    }
-}
-
 header .front-logo {
     height: 100px;
     margin-top: 40px;
 }
 
 header .intro-text {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 20px;
 }
 
 header .intro-text .intro-lead-in {
@@ -361,6 +355,18 @@ header .intro-text .intro-heading {
     color: black;
 }
 
+@media(max-width:992px) {
+    .form-right {
+        display: none;
+    }
+}
+
+@media(min-width:991px) {
+    .form-left {
+        display: none;
+    }
+}
+
 .ok-button{
     width: 100%;
     background: #3f4676;
@@ -387,7 +393,7 @@ header .intro-text .intro-heading {
         margin-top: 40px;
     }
     header .intro-text {
-        padding-top: 100px;
+        padding-top: 0px;
         padding-bottom: 50px;
     }
 
