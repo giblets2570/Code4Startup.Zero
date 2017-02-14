@@ -283,11 +283,12 @@ header {
     background-attachment: scroll;
     background: 
         linear-gradient(
-            rgba(10, 10, 10, 0.45), 
-            rgba(10, 10, 10, 0.45)
+            rgba(10, 10, 10, 0.75), 
+            rgba(10, 10, 10, 0.75)
         ),
-        url(../img/header-bg2.jpg);
-    height: 90vh;
+        url(../img/pug.jpg);
+    height: 1%;
+    overflow: hidden;
 
     background-position: center center;
     background-repeat: none;
@@ -297,10 +298,9 @@ header {
     -o-background-size: cover;
 }
 
-@media(max-width:768px) {
-    header {
-        height: 1%;
-        overflow: hidden;
+@media(max-width:992px) {
+    .video {
+        display: none;
     }
 }
 
@@ -319,7 +319,7 @@ header .intro-text .intro-lead-in {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     /*font-style: italic;*/
-    font-weight: 100;
+    font-weight: 200;
     line-height: 18px;
     margin-top: 50px;
 }
@@ -355,7 +355,7 @@ header .intro-text .intro-heading {
 
 
 .clearfix {
-    background: rgba(255,255,255,0.6);
+    background: rgba(255,255,255,0.6) !important;
     padding: 30px;
     text-align: left;
     color: black;
@@ -847,8 +847,10 @@ section#team {
 }
 
 footer {
+    background: #3f4676;
     padding: 25px 0;
     text-align: center;
+    color: white;
 }
 
 footer span.copyright {
