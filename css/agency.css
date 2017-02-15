@@ -328,6 +328,7 @@ header .intro-text .intro-lead-in {
     padding-bottom: 56.25%; /* 16:9 */
     padding-top: 25px;
     height: 0;
+    margin-bottom: 50px;
 }
 .videoWrapper iframe {
     position: absolute;
@@ -384,6 +385,28 @@ header .intro-text .intro-heading {
 }
 
 .ok-button::selection{
+    background: #3f4676;
+}
+
+.share-button{
+    background: #3f4676;
+    border: 0px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.share-button:hover{
+    /*width: 100%;*/
+    background: #3f4676;
+}
+
+.share-button:active{
+    /*width: 100%;*/
+    background: #3f4676;
+}
+
+.share-button::selection{
     background: #3f4676;
 }
 
