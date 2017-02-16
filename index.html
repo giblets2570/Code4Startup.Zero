@@ -105,7 +105,7 @@
                                 <div class="clearfix">
                                     <h4 class="where">Where can you get your paws on one?</h4>
                                     <h5>Lauching soon on kickstarter</h5>
-                                    <p >Pellet is currently in development. Simply sign up below to find out when you can get your Pellet at a special discounted price.</p>
+                                    <p>Pellet is currently in development. Simply enter your email below to stay up to date with our progress. <br> Also, you'll have a chance to win one of 15 free pellets!</p>
                                     <div class="form-group">
                                         <label>Email *</label>
                                         <input type="email" name="EMAIL" class="form-control" id="email" required="" data-validation-required-message="Please enter your email address.">
@@ -130,7 +130,7 @@
                                 <div class="clearfix">
                                     <h4 class="where">Where can you get your paws on one?</h4>
                                     <h5>Lauching soon on kickstarter</h5>
-                                    <p >Pellet is currently in development. Simply sign up below to find out when you can get Pellet at a special discounted price.</p>
+                                    <p>Pellet is currently in development. Simply enter your email below to stay up to date with our progress. <br> Also, you'll have a chance to win one of 15 free pellets!</p>
                                     <div class="form-group">
                                         <label>Email *</label>
                                         <input type="email" name="EMAIL" class="form-control" id="email" required="" data-validation-required-message="Please enter your email address.">
@@ -279,11 +279,11 @@
         <script src="js/jquery.toaster.js"></script>
         <script type="text/javascript">
             function rand(){
-                return Math.random()*10000;
+                return Math.random()*30000;
             }
             function show(argument) {
                 setTimeout(function(){
-                    $.toaster({ priority : 'success', title: 'Yay', message : 'Someone just gave their email!', timeout: 100});
+                    $.toaster({ priority : 'success', title: 'Yay', message : 'Someone just gave their email!'});
                     show()
                 },rand());
             }
