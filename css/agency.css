@@ -389,8 +389,10 @@ header .intro-text .intro-heading {
 }
 
 .share-button{
-    background: #3f4676;
-    border: 0px;
+    background: #fff;
+    color: #3f4676;
+    border: 5px solid #3f4676;
+    border-radius: 5px;
     padding: 10px;
     padding-left: 25px;
     padding-right: 25px;
@@ -398,16 +400,16 @@ header .intro-text .intro-heading {
 
 .share-button:hover{
     /*width: 100%;*/
-    background: #3f4676;
+    background: #fff;
 }
 
 .share-button:active{
     /*width: 100%;*/
-    background: #3f4676;
+    background: #fff;
 }
 
 .share-button::selection{
-    background: #3f4676;
+    background: #fff;
 }
 
 @media(min-width:768px) {
